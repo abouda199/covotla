@@ -5,7 +5,7 @@ const TravelSearchBar = () => {
   const [destination, setDestination] = useState("Eniso, sousse");
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
   const [passengers, setPassengers] = useState(1);
-
+  /*mostfa sahbi */
   const swapLocations = () => {
     setSource(destination);
     setDestination(source);
@@ -14,7 +14,7 @@ const TravelSearchBar = () => {
   return (
     <div style={styles.container}>
       {/* Source Location */}
-      <div style={styles.container} >
+      <div style={styles.container}>
         <input
           type="text"
           value={source}
@@ -26,7 +26,7 @@ const TravelSearchBar = () => {
 
       {/* Swap Button */}
       <button onClick={swapLocations} style={styles.swapButton}>
-      🔁
+        🔁
       </button>
 
       {/* Destination Location */}
