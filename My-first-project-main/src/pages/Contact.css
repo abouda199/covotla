@@ -1,0 +1,113 @@
+/* Conteneur principal */
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #4221d8; /* Fond sombre */
+    color: #4221d8; /* Texte blanc */
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  /* Informations de contact */
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .contact-item {
+    background-color: #0b0ebd; /* Fond des items */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact-item .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #7dd1e6; /* Couleur de l'icône */
+  }
+  
+  .contact-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #ddd;
+  }
+  
+  .contact-item a {
+    color: #7dd1e6;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulaire de contact */
+  .contact-form {
+    flex: 1;
+    background-color: #7dd1e6; /* Couleur bleu clair */
+    padding: 30px;
+    border-radius: 8px;
+    color: #f8f7f7; /* Texte sombre */
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4221d8;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: none; /* Empêche le redimensionnement */
+  }
+  
+  .contact-form button {
+    background-color: #0056b3; /* Bleu sombre */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #003d82; /* Bleu plus sombre au survol */
+  }
+  
+  /* Responsivité */
+  @media (max-width: 768px) {
+    .contact-us {
+      flex-direction: column;
+    }
+  
+    .contact-info {
+      grid-template-columns: 1fr; /* Une seule colonne */
+    }
+  }
+  

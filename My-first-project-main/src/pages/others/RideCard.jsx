@@ -35,7 +35,7 @@ const RideCard = () => {
             <p className="super-driver">Super Driver</p>
           </div>
         </div>
-        <p className="price">80 €</p>
+        <p className="price">30 €</p>
       </div>
       
     </div>

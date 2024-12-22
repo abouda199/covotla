@@ -1,0 +1,59 @@
+/* Conteneur principal */
+.signup-container {
+    display: flex; /* Active le mode flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    min-height: 100vh; /* Assure que le conteneur prend toute la hauteur de la page */
+    background-color: #f5f5f5; /* (Optionnel) Couleur de fond */
+    padding: 0 20px; /* Ajoute un peu d'espace autour du formulaire */
+    box-sizing: border-box; /* Assure que le padding est inclus dans la largeur totale */
+  }
+  
+  /* Style du formulaire */
+  .signup-form {
+    background-color: #fff; /* Couleur de fond blanche */
+    padding: 20px; /* Ajoute de l'espace intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+    width: 100%;
+    max-width: 400px; /* Largeur maximale pour le formulaire */
+    text-align: center; /* Centre le texte à l'intérieur */
+  }
+  
+  /* Champs d'entrée */
+  .signup-form input {
+    display: block; /* Les champs s'affichent comme des blocs */
+    width: 100%; /* Ils prennent toute la largeur */
+    margin-bottom: 15px; /* Espace entre les champs */
+    padding: 10px; /* Espace intérieur */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+  }
+  
+  /* Bouton */
+  .signup-form button {
+    background-color: #424d5a; /* Couleur bleue */
+    color: white; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    padding: 10px 15px; /* Ajoute de l'espace au bouton */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Affiche le curseur pointer */
+    transition: background-color 0.3s; /* Animation pour le hover */
+  }
+  
+  .signup-form button:hover {
+    background-color: #758494; /* Couleur bleue foncée au survol */
+  }
+  
+  /* Lien */
+  .signup-form a {
+    color: #788ca1; /* Couleur bleue */
+    text-decoration: none; /* Pas de soulignement */
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+  }
+  

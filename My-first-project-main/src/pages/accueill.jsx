@@ -29,6 +29,9 @@ const Accueil = () => {
 
         <div>
           <RideCard />
+          
+          <RideCard />
+          <RideCard />
           <RideCard />
          
          

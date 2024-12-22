@@ -11,6 +11,7 @@ import Contact from "./pages/Contact"; // Import Contact page
 import Signin from "./pages/signin";
 import Login from './pages/login';
 import Accueill from './pages/accueill';
+import ajouter_trajet from "./pages/ajouter_trajet";
 
 const App = () => { 
  
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/signin" element={<Signin />} />
         <Route path="/login" element={<Login />} />
         <Route path="/accueill" element={<Accueill />} />
+        <Route path="/ajouter_trajet" element={<ajouter_trajet />} />
         
       </Routes>
     
